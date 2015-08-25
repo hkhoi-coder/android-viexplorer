@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_place_overview_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Hotel Nikko Saigon"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_place_overview_des"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/long_des_hcmc" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="160dp"
+            android:adjustViewBounds="true"
+            android:scaleType="center"
+            android:src="@drawable/cover_hotel" />
+
+        <TextView
+            android:id="@+id/tv_place_overview_address"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="32 An Duong Vuong Quan 5 TPHCM" />
+
+        <TextView
+            android:id="@+id/tv_place_overview_tel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="01234567898765442" />
+    </LinearLayout>
+</ScrollView>
+<!-- From: file:/home/hkhoi/Documents/Projects/Android/ViExplorer/app/src/main/res/layout/place_overview_fragment.xml -->

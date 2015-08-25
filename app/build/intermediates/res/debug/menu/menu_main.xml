@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/qr_scan"
+        android:title="@string/qr"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/exit"
+        android:title="@string/exit"
+        app:showAsAction="never" />
+</menu>
+<!-- From: file:/home/hkhoi/Documents/Projects/Android/ViExplorer/app/src/main/res/menu/menu_main.xml -->

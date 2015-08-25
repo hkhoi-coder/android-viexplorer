@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:checked="true"
+            android:icon="@drawable/ic_home"
+            android:title="@string/mn_home" />
+        <item
+            android:id="@+id/hotel"
+            android:checked="false"
+            android:icon="@drawable/ic_hotel"
+            android:title="@string/mn_hotel" />
+
+        <item
+            android:id="@+id/restaurant"
+            android:checked="false"
+            android:icon="@drawable/ic_restaurant"
+            android:title="@string/mn_restaurant" />
+
+        <item
+            android:id="@+id/shop"
+            android:checked="false"
+            android:icon="@drawable/ic_shop"
+            android:title="@string/mn_shop" />
+
+        <item
+            android:id="@+id/park"
+            android:checked="false"
+            android:icon="@drawable/ic_park"
+            android:title="@string/mn_park" />
+
+
+        <item
+            android:id="@+id/theater"
+            android:checked="false"
+            android:icon="@drawable/ic_theater"
+            android:title="@string/mn_theater" />
+        <item
+            android:id="@+id/museum"
+            android:checked="false"
+            android:icon="@drawable/ic_museum"
+            android:title="@string/mn_museum" />
+        <item
+            android:id="@+id/overview"
+            android:checked="false"
+            android:icon="@drawable/ic_overview"
+            android:title="@string/mn_overview" />
+    </group>
+</menu><!-- From: file:/home/hkhoi/Documents/Projects/Android/ViExplorer/app/src/main/res/menu/drawer.xml -->

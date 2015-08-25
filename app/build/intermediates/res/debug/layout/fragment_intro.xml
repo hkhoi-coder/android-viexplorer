@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <TextView
+            android:id="@+id/iv_intro_des"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/long_des_hcmc" />
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/home/hkhoi/Documents/Projects/Android/ViExplorer/app/src/main/res/layout/fragment_intro.xml -->

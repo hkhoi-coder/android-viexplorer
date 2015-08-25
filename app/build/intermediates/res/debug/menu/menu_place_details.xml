@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="hkhoi.viexplorer.place_details.PlaceDetailsActivity">
+    <item
+        android:id="@+id/mnit_place_details_showmap"
+        android:title="@string/show_map"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mnit_place_details_share"
+        android:title="@string/share"
+        app:showAsAction="never" />
+</menu>
+<!-- From: file:/home/hkhoi/Documents/Projects/Android/ViExplorer/app/src/main/res/menu/menu_place_details.xml -->
